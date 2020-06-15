@@ -9,6 +9,7 @@ class Owner
     @species = "human"
     @cats = []
     @dogs = []
+    @pets = []
     save
     
   end
@@ -82,5 +83,7 @@ class Owner
     Cat.all.each {|cat| cat.mood = "happy"}
     
   end
+  
+  def self_pets
   
 end
