@@ -44,9 +44,6 @@ class Owner
     
   end
   
-  def add_cats(cat)
-    @cats << self.cat
-  end
   
   def cats
     
@@ -84,6 +81,10 @@ class Owner
     
   end
   
-  def self_pets
+  def sell_pets
+    
+    Cat.all.each
+    
+  end
   
 end
